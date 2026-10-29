@@ -1,0 +1,7 @@
+experiment,fraction,rows,partitions,train_time_s
+data_fraction,0.1,50000,8,4.2
+data_fraction,0.5,250000,8,13.8
+data_fraction,1.0,500000,8,24.3
+partition_count,0.5,250000,4,21.4
+partition_count,0.5,250000,8,13.8
+partition_count,0.5,250000,16,14.1

@@ -1,0 +1,172 @@
+{
+  "status": "RUNNING",
+  "mode": "AUTHORIZED_REPLAY",
+  "interface": "Telemetry Replay Stream (data/sample/sample_traffic.csv)",
+  "packets_captured": 7062536,
+  "flows_processed": 30509,
+  "threats_detected": 12274,
+  "benign_count": 18235,
+  "threat_breakdown": {
+    "DDoS": 2009,
+    "DoS": 5168,
+    "PortScan": 2381,
+    "BruteForce": 1863,
+    "WebAttack": 531,
+    "Other": 67,
+    "Botnet": 255
+  },
+  "recent_flows": [
+    {
+      "ts": "2026-10-27T08:05:48.657126+00:00",
+      "src": "192.168.1.172",
+      "dst": "172.16.151.218",
+      "port": 25,
+      "prediction": "BENIGN",
+      "score": 1.0,
+      "is_threat": false,
+      "source": "REPLAY"
+    },
+    {
+      "ts": "2026-10-27T08:05:49.023230+00:00",
+      "src": "10.0.16.116",
+      "dst": "172.16.151.218",
+      "port": 3306,
+      "prediction": "BENIGN",
+      "score": 0.9987,
+      "is_threat": false,
+      "source": "REPLAY"
+    },
+    {
+      "ts": "2026-10-27T08:05:49.556569+00:00",
+      "src": "192.168.1.211",
+      "dst": "172.16.151.218",
+      "port": 3306,
+      "prediction": "BENIGN",
+      "score": 0.9997,
+      "is_threat": false,
+      "source": "REPLAY"
+    },
+    {
+      "ts": "2026-10-27T08:05:49.896781+00:00",
+      "src": "192.168.1.43",
+      "dst": "172.16.151.218",
+      "port": 3389,
+      "prediction": "BENIGN",
+      "score": 0.9999,
+      "is_threat": false,
+      "source": "REPLAY"
+    },
+    {
+      "ts": "2026-10-27T08:05:50.170461+00:00",
+      "src": "192.168.1.87",
+      "dst": "172.16.151.218",
+      "port": 8443,
+      "prediction": "BENIGN",
+      "score": 0.9999,
+      "is_threat": false,
+      "source": "REPLAY"
+    },
+    {
+      "ts": "2026-10-27T08:05:50.460438+00:00",
+      "src": "192.168.1.172",
+      "dst": "172.16.151.218",
+      "port": 1433,
+      "prediction": "BENIGN",
+      "score": 0.9984,
+      "is_threat": false,
+      "source": "REPLAY"
+    },
+    {
+      "ts": "2026-10-27T08:05:50.775339+00:00",
+      "src": "10.0.17.241",
+      "dst": "172.16.151.218",
+      "port": 443,
+      "prediction": "BENIGN",
+      "score": 0.998,
+      "is_threat": false,
+      "source": "REPLAY"
+    },
+    {
+      "ts": "2026-10-27T08:05:51.012677+00:00",
+      "src": "192.168.1.40",
+      "dst": "172.16.151.218",
+      "port": 59579,
+      "prediction": "DoS",
+      "score": 0.9416,
+      "is_threat": true,
+      "source": "REPLAY"
+    },
+    {
+      "ts": "2026-10-27T08:05:51.199049+00:00",
+      "src": "192.168.1.167",
+      "dst": "172.16.151.218",
+      "port": 54249,
+      "prediction": "DDoS",
+      "score": 0.9477,
+      "is_threat": true,
+      "source": "REPLAY"
+    },
+    {
+      "ts": "2026-10-27T08:05:51.414427+00:00",
+      "src": "192.168.1.82",
+      "dst": "172.16.151.218",
+      "port": 29749,
+      "prediction": "DDoS",
+      "score": 0.9681,
+      "is_threat": true,
+      "source": "REPLAY"
+    },
+    {
+      "ts": "2026-10-27T08:05:51.675071+00:00",
+      "src": "10.0.18.80",
+      "dst": "172.16.151.218",
+      "port": 1433,
+      "prediction": "BENIGN",
+      "score": 1.0,
+      "is_threat": false,
+      "source": "REPLAY"
+    },
+    {
+      "ts": "2026-10-27T08:05:51.959091+00:00",
+      "src": "10.0.9.102",
+      "dst": "172.16.151.218",
+      "port": 37910,
+      "prediction": "DoS",
+      "score": 0.9997,
+      "is_threat": true,
+      "source": "REPLAY"
+    },
+    {
+      "ts": "2026-10-27T08:05:52.164587+00:00",
+      "src": "10.0.7.39",
+      "dst": "172.16.151.218",
+      "port": 46528,
+      "prediction": "DoS",
+      "score": 0.9966,
+      "is_threat": true,
+      "source": "REPLAY"
+    },
+    {
+      "ts": "2026-10-27T08:05:52.347959+00:00",
+      "src": "192.168.1.27",
+      "dst": "172.16.151.218",
+      "port": 25,
+      "prediction": "BENIGN",
+      "score": 0.9999,
+      "is_threat": false,
+      "source": "REPLAY"
+    },
+    {
+      "ts": "2026-10-27T08:05:52.588023+00:00",
+      "src": "192.168.1.136",
+      "dst": "172.16.151.218",
+      "port": 44580,
+      "prediction": "DoS",
+      "score": 0.9998,
+      "is_threat": true,
+      "source": "REPLAY"
+    }
+  ],
+  "error_message": "",
+  "last_updated": "2026-10-27T08:05:52.653029+00:00"
+}

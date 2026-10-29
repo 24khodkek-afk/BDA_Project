@@ -1,0 +1,9 @@
+Label,detected,pct
+DoS,81000,38.37
+PortScan,40000,18.95
+DDoS,35000,16.58
+BruteForce,29984,14.2
+BENIGN,10377,4.92
+WebAttack,8907,4.22
+Botnet,4860,2.3
+Other,964,0.46

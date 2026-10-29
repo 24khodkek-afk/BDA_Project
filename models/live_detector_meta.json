@@ -1,0 +1,31 @@
+{
+  "features": [
+    "Destination Port",
+    "Flow Duration",
+    "Total Fwd Packets",
+    "Total Backward Packets",
+    "Total Length of Fwd Packets",
+    "Total Length of Bwd Packets",
+    "Flow Bytes/s",
+    "Flow Packets/s",
+    "Flow IAT Mean",
+    "Packet Length Mean",
+    "SYN Flag Count",
+    "FIN Flag Count",
+    "ACK Flag Count",
+    "PSH Flag Count"
+  ],
+  "classes": [
+    "BENIGN",
+    "Botnet",
+    "BruteForce",
+    "DDoS",
+    "DoS",
+    "Other",
+    "PortScan",
+    "WebAttack"
+  ],
+  "model_type": "RandomForestClassifier",
+  "num_features": 14,
+  "trained_on_rows": 10000
+}

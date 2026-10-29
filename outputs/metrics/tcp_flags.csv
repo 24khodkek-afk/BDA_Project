@@ -1,0 +1,9 @@
+Label,avg_syn,avg_fin,avg_rst,avg_ack,avg_psh
+DDoS,0.0,0.0,0.0,0.0,0.0
+BENIGN,0.0,0.0,0.0,0.0,0.0
+WebAttack,0.0,0.0,0.0,0.0,0.0
+Other,0.0,0.0,0.0,0.0,0.0
+BruteForce,0.0,0.0,0.0,0.0,0.0
+DoS,0.0,0.0,0.0,0.0,0.0
+PortScan,0.0,0.0,0.0,0.0,0.0
+Botnet,0.0,0.0,0.0,0.0,0.0

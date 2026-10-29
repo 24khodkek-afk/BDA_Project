@@ -1,0 +1,8 @@
+{
+  "model": "GBT",
+  "total_flows": 500000,
+  "attacks_detected": 211092,
+  "benign_flows": 288908,
+  "attack_rate_pct": 42.22,
+  "pred_time_sec": 0.31
+}

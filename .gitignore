@@ -1,0 +1,5 @@
+
+data/raw/synthetic_traffic.csv
+__pycache__/
+*.py[cod]
+.pytest_cache/

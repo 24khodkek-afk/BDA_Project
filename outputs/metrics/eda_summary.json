@@ -1,0 +1,46 @@
+{
+  "total_records": 500000,
+  "total_attributes": 79,
+  "threat_classes": [
+    {
+      "Label": "BENIGN",
+      "count": 299000,
+      "pct": "59.80"
+    },
+    {
+      "Label": "DoS",
+      "count": 81000,
+      "pct": "16.20"
+    },
+    {
+      "Label": "PortScan",
+      "count": 40000,
+      "pct": "8.00"
+    },
+    {
+      "Label": "DDoS",
+      "count": 35000,
+      "pct": "7.00"
+    },
+    {
+      "Label": "BruteForce",
+      "count": 30000,
+      "pct": "6.00"
+    },
+    {
+      "Label": "WebAttack",
+      "count": 9000,
+      "pct": "1.80"
+    },
+    {
+      "Label": "Botnet",
+      "count": 5000,
+      "pct": "1.00"
+    },
+    {
+      "Label": "Other",
+      "count": 1000,
+      "pct": "0.20"
+    }
+  ]
+}

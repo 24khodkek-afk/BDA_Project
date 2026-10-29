@@ -1,0 +1,9 @@
+Label,avg_fwd_pkts,avg_bwd_pkts,avg_flow_bytes_s,avg_pkt_len
+BENIGN,0.0,0.0,0.5,800.97
+WebAttack,0.0,0.0,0.5,826.67
+BruteForce,0.0,0.0,0.5,349.93
+DoS,0.0,0.0,0.5,60.01
+PortScan,0.0,0.0,0.5,49.98
+Botnet,0.0,0.0,0.5,238.86
+DDoS,0.0,0.0,0.49,51.94
+Other,0.0,0.0,0.48,480.93

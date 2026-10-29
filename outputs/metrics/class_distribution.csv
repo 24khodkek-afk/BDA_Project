@@ -1,0 +1,9 @@
+Label,count,pct
+BENIGN,299000,59.80
+DoS,81000,16.20
+PortScan,40000,8.00
+DDoS,35000,7.00
+BruteForce,30000,6.00
+WebAttack,9000,1.80
+Botnet,5000,1.00
+Other,1000,0.20
